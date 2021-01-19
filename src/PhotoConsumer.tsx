@@ -13,11 +13,11 @@ const PhotoConsumer: React.FC<IPhotoConsumer> = ({ src, intro, children }) => {
   const photoContext = React.useContext<PhotoContextType>(PhotoContext);
   const key = React.useMemo<string>(() => uniqueId(), []);
   const [position, updatePosition] = React.useState<{
-    clientX: number | undefined;
-    clientY: number | undefined;
+    clientX: number;
+    clientY: number;
   }>({
-    clientX: undefined,
-    clientY: undefined,
+    clientX: 0,
+    clientY: 0,
   });
   const photoTriggerRef = React.useRef<HTMLElement | null>(null);
 
@@ -49,7 +49,7 @@ const PhotoConsumer: React.FC<IPhotoConsumer> = ({ src, intro, children }) => {
 
   function handleTouchEnd(e) {
     const { clientX, clientY } = e.changedTouches[0];
-    if (position.clientX === clientX && position.clientY === clientY) {
+    if (Math.abs(position.clientX - clientX) < 1 && Math.abs(position.clientY - clientY) < 1) {
       photoContext.onShow(key);
     }
     if (children) {
