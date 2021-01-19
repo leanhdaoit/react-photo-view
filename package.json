@@ -1,5 +1,5 @@
 {
-  "name": "react-photo-view",
+  "name": "react-photo-view-fix",
   "version": "0.5.2",
   "description": "一款精致的 React 的图片预览组件",
   "author": "MinJieLiu",
@@ -32,33 +32,33 @@
     "lodash.uniqueid": "^4.0.1"
   },
   "peerDependencies": {
-    "classnames": "^2.2.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@svgr/rollup": "^4.3.3",
-    "@types/classnames": "^2.2.9",
+    "@types/classnames": "^2.2.11",
     "@types/lodash.debounce": "^4.0.6",
     "@types/lodash.uniqueid": "^4.0.6",
-    "@types/react": "^16.9.13",
-    "@types/react-dom": "^16.9.4",
-    "@types/styled-components": "^4.4.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^4.4.3",
     "classnames": "^2.2.6",
     "cross-env": "^6.0.3",
     "less": "^3.10.3",
     "prettier": "^1.18.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "rollup": "^1.27.6",
-    "rollup-plugin-babel": "^4.3.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^2.9.0",
+    "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-url": "^3.0.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.9.7"
   },
   "files": [
     "dist"
