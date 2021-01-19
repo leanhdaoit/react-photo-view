@@ -1,10 +1,10 @@
-# react-photo-view
+# react-photo-view-fix
 
 一款精致的 `React` 的图片预览组件
 
-[![npm](https://img.shields.io/npm/v/react-photo-view.svg?style=flat-square)](https://www.npmjs.com/package/react-photo-view)
-[![react-photo-view](https://badgen.net/bundlephobia/minzip/react-photo-view)](https://github.com/MinJieLiu/react-photo-view)
-[![react-photo-view](https://badgen.net/npm/dt/react-photo-view)](https://github.com/MinJieLiu/react-photo-view)
+[![npm](https://img.shields.io/npm/v/react-photo-view-fix.svg?style=flat-square)](https://www.npmjs.com/package/react-photo-view-fix)
+[![react-photo-view-fix](https://badgen.net/bundlephobia/minzip/react-photo-view-fix)](https://github.com/MinJieLiu/react-photo-view-fix)
+[![react-photo-view-fix](https://badgen.net/npm/dt/react-photo-view-fix)](https://github.com/MinJieLiu/react-photo-view-fix)
 
 Demo: [https://minjieliu.github.io/react-photo-view](https://minjieliu.github.io/react-photo-view)
 
@@ -22,13 +22,13 @@ Demo: [https://minjieliu.github.io/react-photo-view](https://minjieliu.github.io
 
 ## 开始使用
 
-    yarn add react-photo-view
+    yarn add react-photo-view-fix
 
 基本:
 
 ```js
-import { PhotoProvider, PhotoConsumer } from 'react-photo-view';
-import 'react-photo-view/dist/index.css';
+import { PhotoProvider, PhotoConsumer } from 'react-photo-view-fix';
+import 'react-photo-view-fix/dist/index.css';
 
 function ImageView() {
   return (
@@ -100,7 +100,7 @@ function ImageView() {
 
 #### PhotoSlider
 
-继承自 `PhotoProvider`。手动控制 `react-photo-view` 的展现与隐藏
+继承自 `PhotoProvider`。手动控制 `react-photo-view-fix` 的展现与隐藏
 
 | 名称          | 类型          | 必选 | 描述         |
 | :------------ | :------------ | :--- | :----------- |
